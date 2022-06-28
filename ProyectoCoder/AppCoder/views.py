@@ -21,7 +21,7 @@ def mostrarfamiliar(request):
     
     familia = Familiar.objects.all()
     
-    return render (request,"templeta1.html,{"familias": familiar})
+    return render (request,"template1.html,{"Familias": Familiar})
     
 # def estudiantes(self):
     
